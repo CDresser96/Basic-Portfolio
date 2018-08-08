@@ -1,0 +1,55 @@
+content {
+    position: absolute;
+}
+
+header {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 225%;
+    float: left;
+}
+
+.nav {
+    color: #666666;
+    font-size: 15px;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 960px;
+}
+
+h2 {
+    color: #4aaaa5;
+    margin-bottom: 10px;
+}
+
+.Ceci {
+    float: left;
+    margin-right: 20px;
+}
+
+.footertop {
+    clear: both;
+    background-color: #4aaaa5;
+    height: 10px;
+}
+
+.footer {
+    clear: both;
+    background-color: #666666;
+    height: 40px;
+    text-align: center;
+    line-height: 750%;
+    color: #ffffff;
+    font-size: 10px;
+}
