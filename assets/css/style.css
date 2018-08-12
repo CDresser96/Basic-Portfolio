@@ -9,47 +9,47 @@ header {
     background-color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 50px;
+    width: 100%;
     border-bottom: 20px;
     border-color: #949494;
-    position: relative;
-    left: 0; right: 0; top: 0;
+    position: absolute;
+    margin: 0 auto;
 }
 
 h1 {
+    overflow: auto;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 250px;
+    width: 300px;
     height: 50px;
     text-align: center;
     font-size: 30px;
     line-height: 175%;
-    position: relative;
-    left: 0; right: 0; top: 0;
-    float: left;
+    position: absolute;
+    top: -23px; left: 100px;
 }
 
-.nav {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+a {
+    text-decoration: none;
     color: #666666;
-    font-size: 15px;
-    top: 0; right: 0px;
-    position: relative;
 }
 
 .container {
     background-color: #ffffff;
     width: 960px;
     margin: 0 auto;
-    height: 360px;
+    height: 380px;
     padding: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: fixed;
+    position: absolute;
     top: 100px; right: 0; left: 0;
 }
 
 h2 {
     color: #4aaaa5;
     margin-bottom: 10px;
+    border-bottom: 2px solid #cbcbcb;
+    padding: 0px 0px 20px 0px;
 }
 
 .bio {
@@ -83,64 +83,129 @@ h2 {
 }
 
 #About {
+    position: absolute;
     float: left;
+    top: 20px; right: 200px;
 }
 
 #Contact {
+    position: absolute;
     float: left;
+    top: 20px; right: 130px;
 }
 
-.imghangman {
+#Portfolio {
+    position: absolute;
     float: left;
+    top: 20px; right: 50px;
 }
 
-.imgrpg {
-    
+
+
+.Hangman {
+    float: left;   
 }
 
-.imgtrivia {
-    float: left;
+.RPG {
+    margin: 0px 200px 0px 300px;  
 }
 
-.imgrutgers {
-
+.Triva {
+    float: left;  
 }
 
-.imgrock {
-
+.Rutgers {
+    margin: 0px 200px 0px 300px;
 }
 
-#hangman {
+.pic1 {
+    position: relative;
+}
+
+#Hangman {
+    position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
     width: 150px;
+    left: 0px; right: 0px; top: 90px;
+    text-align: center;
 }
 
-#RPG Game {
+.pic2 {
+    position: relative;
+}
+
+#RPG {
+    position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
     width: 150px;
+    left: 455px; right: 0px; top: 90px;
+    text-align: center;
 }
 
-#Trivia Game {
+.pic3 {
+    position: relative;
+    float: left;
+}
+
+#Trivia {
+    position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
     width: 150px;
+    left: 0px; right: 0px; top: 90px;
+    text-align: center;
+}
+
+.pic4 {
+    position: relative;
 }
 
 #Rutgers {
+    position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
     width: 150px;
+    left: 455px; right: 0px; top: 90px;
+    text-align: center;
+}
+
+.pic5 {
+    position: relative;
 }
 
 #Rock {
+    position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
     width: 150px;
+    left: 0px; right: 0px; top: 90px;
+    text-align: center;
 }
 
-.submit {
+forum {
+    color: #828282;
+}
+
+input {
+    width: 960px;
+}
+
+.message {
+    height: 150px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
     background-color: #4aaaa5;
+    border: none;
     color: #ffffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 110px;
+    font-size: 15px;
+    height: 35px;
+    line-height: 30%;
 }
